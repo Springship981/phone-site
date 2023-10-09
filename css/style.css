@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F1EFE4;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1316px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    padding-bottom: 80px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 44px;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.header .navbar a+a {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 40px;
+}
+
+.header__icons {
+    display: flex;
+}
+
+.header__icons img {
+    cursor: pointer;
+}
+
+#menu-btn {
+    display: none;
+}
+
+#search-btn {
+    margin-right: 20px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    border-radius: 56px;
+    background: #C8DDED;
+}
+
+.header__description {
+    max-width: 565px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.header__title {
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 88px;
+    margin-bottom: 32px;
+}
+
+.header__text {
+    color: #000;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 48px;
+}
+
+.header__btn {
+    padding: 19px 32px;
+    border-radius: 12px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.header__box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 632px;
+    border-radius: 56px;
+    padding: 32px 0 32px 40px;
+}
+
+.box--violet {
+    background: #C9C8ED;
+    margin-right: 32px;
+}
+
+.box__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.box__text {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 48px;
+    max-width: 494px;
+}
+
+.box--orange {
+    background: #FFFCB6;
+}
+
+.box__btn {
+    padding: 19px 32px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 26px;
+    border-radius: 12px;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
