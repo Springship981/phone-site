@@ -25,6 +25,9 @@ a {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
 }
 
 p {
@@ -167,6 +170,104 @@ h6 {
     cursor: pointer;
 }
 
+.products {
+    padding-bottom: 80px;
+}
+
+.product_wrapper {
+    display: flex;
+}
+
+.product__title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 64px;
+}
+
+.product__item {
+    max-width: 306px;
+    background-color: #fff;
+    padding: 24px;
+    margin-right: 24px;
+    border-radius: 32px;
+}
+
+.product__item-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 24px;
+    max-width: 248px;
+}
+
+.product__item-img {
+    margin-bottom: 16px;
+}
+
+.product__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.product__price-text {
+    text-align: center;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.product__price-sum {
+    text-align: center;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.product-item-btn {
+    padding: 7px 12px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    width: 100%;
+    background-color: #1F222E;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.catalogs__title {
+    font-size: 54px;
+    margin-bottom: 58px;
+}
+
+.catalogs__list {
+    display: flex;
+    text-align: center;
+}
+
+.catalogs__list {
+    display: flex;
+    text-align: center;
+}
+
+.catalogs__item {
+    margin-right: 8px;
+}
+
+.catalogs__item:last-child {
+    margin-right: 0;
+}
+
+.catalogs__link {
+    border-radius: 66px;
+    padding: 10px 22px 11px 22px;
+    border: 1px solid#191816;
+    margin-bottom: 164px;
+}
+
 @media (max-width: 768px) {
     #menu-btn {
         display: inline-block;
@@ -210,40 +311,49 @@ h6 {
         line-height: 24px;
         margin-bottom: 24px;
     }
+
     .header__btn {
         display: flex;
         justify-content: center;
     }
+
     .header__img img {
         width: 343px;
         height: 289px;
     }
+
     .swiper-pagination {
         display: none;
     }
+
     .header__box {
         margin-top: 16px;
     }
+
     .box {
         width: 100%;
         padding: 24px;
         border-radius: 16px;
     }
+
     .box--violet {
         margin-right: 0;
         margin-bottom: 16px;
     }
+
     .box__title {
         font-size: 28px;
         line-height: 32px;
         margin-bottom: 16px;
     }
+
     .box__text {
         font-size: 18px;
         line-height: 26px;
         margin-bottom: 24px;
         max-width: 295px;
     }
+
     .box__btn {
         border-radius: 12px;
         font-size: 20px;
