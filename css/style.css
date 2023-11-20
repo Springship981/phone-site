@@ -548,4 +548,25 @@ line-height: 27px;
         line-height: 26px;
         width: 100%;
     }
+    .advantages {
+        padding-bottom: 40px;
+    }
+    .advantages__title {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 25px;
+    }
+    .advantages__descr {
+        border-radius: 32px;
+        padding: 24px;
+        margin-bottom: 16px;
+    }
+    .advantages__descr-title {
+        font-size: 24px;
+
+    }
+    .advantages__descr-text {
+        font-size: 20px;
+    }
+    
 }
